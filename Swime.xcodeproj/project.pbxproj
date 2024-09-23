@@ -21,6 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		10C09E542CA1664300C95A19 /* SwimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C09E532CA1664300C95A19 /* SwimeTests.swift */; };
 		OBJ_117 /* AdapterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* AdapterProtocols.swift */; };
 		OBJ_118 /* AssertionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* AssertionDispatcher.swift */; };
 		OBJ_119 /* AssertionRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* AssertionRecorder.swift */; };
@@ -157,6 +158,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10C09E532CA1664300C95A19 /* SwimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwimeTests.swift; sourceTree = "<group>"; };
 		"Nimble::Nimble::Product" /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_100 /* Await.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Await.swift; sourceTree = "<group>"; };
 		OBJ_101 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
@@ -315,6 +317,7 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_12 /* SwimeSpec.swift */,
+				10C09E532CA1664300C95A19 /* SwimeTests.swift */,
 				OBJ_13 /* utils.swift */,
 			);
 			name = SwimeTests;
@@ -688,6 +691,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = OBJ_5;
@@ -844,6 +848,7 @@
 			files = (
 				OBJ_245 /* SwimeSpec.swift in Sources */,
 				OBJ_246 /* utils.swift in Sources */,
+				10C09E542CA1664300C95A19 /* SwimeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
